@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    width: 100%;
+}
+
+/* Header Section */
+
+header {
+    height: 80px;
+    background: rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 5px solid seashell
+}
+
+header h1 {
+    margin-left: 2%;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 2px seashell;
+}
+
+#logo {
+    height: 65px;
+    margin-left: 15px;
+}
+
+/* About Section */
+
+main {
+    position: relative;
+    top: 80px;
+}
+
+#about {
+    min-height: 500px;
+    width: 100%;
+    background-image: url("https://golf.com/wp-content/uploads/2019/09/Ball-and-divots.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    border: 5px solid seashell;
+}
+
+#about h1, #about h3 {
+    background-color: rgb(32, 32, 32);
+}
+
+#about h1 {
+    padding: 30px;
+    font-size: 4em;
+}
+
+#about h3 {
+    font-size: 2em;
+    color: lightgray;
+    padding-bottom: 30px;
+}
+
+/* Memes Section */
+
+#memes {
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+#memes-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#memes-container img {
+    max-height: 250px;
+}
+
+.img-container p {
+    font-size: 1.2em;
+    padding: 7px;
+}
+
+/* Contact Section */
+
+#contact {
+    height: 400px;
+    width: 100%;
+    background-image: url("https://athlonsports.com/.image/t_share/MTgyMDE2NjQ1ODc0MTMyMDk5/-fantasy-golf-team-names.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+}
+
+#filter {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+#info {
+    position: absolute;
+}
+
+#info h2, #info h3, #info a {
+    color: lightgray
+}
+
+#info h2 {
+    padding: 10px;
+}
+
+#info h3 {
+    padding: 6px;
+}
+
+#info a h3 {
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#contact p {
+    position: absolute;
+    bottom: 7px;
+    left: 15px;
+    color: gray;
+}
